@@ -13,7 +13,7 @@
     background-image: url(images/shape-1.png);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 210px;
+    background-size: 205px;
     background-position-y: 50px;
     background-position-x: 45px;
 }
@@ -30,13 +30,13 @@
 }
 .section5{
     height: 500px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     background-image: url(images/shape-2.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 12%;
-    background-position-x: 50px;
-    background-position-y: 50px ;
+    background-position-x: 40px;
+    background-position-y: 80px ;
 
 }
 .flexible-container{
@@ -62,7 +62,7 @@ h1{
     font-size: 40px;
     line-height: 50%;
     font-family: 'Poppins', sans-serif;
-
+    color: rgb(24, 18, 18);
 }
 .chocolate-color{
     color: chocolate;
@@ -161,8 +161,6 @@ h3{
 .container7{
     width: 30%;
     padding-left: 10%;
-
-
 }
 .container8{
     width: 40%;
@@ -180,7 +178,7 @@ h3{
 }
 .footer{
     height: 150px;
-    background-color: black;
+    background-color: rgb(26, 22, 22);
 
 }
 .footer-heading{
