@@ -1,9 +1,43 @@
-body{
-    margin: 0;
-}
-section{
+
+.section1{
     height: 500px;
     margin-bottom: 100px;
+}
+.section2{
+    height: 500px;
+    margin-bottom: 20px;
+
+}
+.section3{
+    height: 500px;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 210px;
+    background-position-y: 50px;
+    background-position-x: 45px;
+}
+.section4{
+    height: 500px;
+    height: 500px;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 18%;
+    background-position-y: 260px;
+    background-position-x: 1050px;
+
+}
+.section5{
+    height: 500px;
+    margin-bottom: 150px;
+    background-image: url(images/shape-2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 12%;
+    background-position-x: 50px;
+    background-position-y: 50px ;
+
 }
 .flexible-container{
     display: flex;
@@ -18,18 +52,24 @@ section{
     margin-top: 0%;
     padding-left: 5%;
 }
-h1{
-    font-size: 60px;
-    line-height: 50%;
-    padding-left: 12px;
+.heading{
     font-family: 'Lora', serif;
+    font-size: 60px;
+    padding-left: 10px;
+    color: rgb(24, 18, 18);
 }
-.orange-color{
-    color: orange;
+h1{
+    font-size: 40px;
+    line-height: 50%;
+    font-family: 'Poppins', sans-serif;
+
+}
+.chocolate-color{
+    color: chocolate;
 }
 .side-border{
     border-left: 4px solid tomato;
-    border-image: linear-gradient(tomato,salmon);
+    border-image: tomato;
     border-image-slice: 1;
     height: 120px;
 }
@@ -40,24 +80,25 @@ font-family: 'Poppins', sans-serif;
 .explore-link{
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    background-image: linear-gradient(salmon,tomato);
+    background-image: linear-gradient(tomato,salmon);
     padding: 10px 30px;
     border-radius: 5px;
     font-weight: 500;
     color: white;
 }
-.person-img{
+.img{
     width: 100%;
 }
-.my-vision{
+.deepblue-color{
     font-family: 'Poppins', sans-serif;
     color: rgb(29, 13, 59);
     text-align: center;
+    font-size: 50px;
 }
-span{
+.orange-color{
     color: orange;
 }
-.slide-container{
+.card-system{
     margin-left: 10%;
     margin-top: 5%;
 }
@@ -68,33 +109,91 @@ span{
 h3{
     font-family: 'Poppins', sans-serif;
 }
-.illustrator-1{
+#card-1{
     width: 22%;
     height: 350px;
     background-color: rgb(177, 225, 253);
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
 
 }
-.illustrator-2{
+#card-2{
     width: 22%;
     height: 350px;
     background-color: rgb(253, 177, 240);
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
 
 }
-.illustrator-3{
+#card-3{
     width: 22%;
     height: 350px;
     background-color: burlywood;  
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
 
+}
+.container3{
+    width: 30%;
+    margin-top: 0%;
+    padding-left: 10%;
+}
+.container4{
+    width: 40%;
+    padding-left: 6%;
+}
+.container5{
+    padding-left: 10%;
+    width: 40%;
+    margin-top: 10px;
+
+}
+.container6{
+    width: 30%;
+    padding-left: 10%;
+}
+.container7{
+    width: 30%;
+    padding-left: 10%;
+
+
+}
+.container8{
+    width: 40%;
+    padding-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+}
+.challenge-img{
+    height:350px;
+    width: 450px;
+    border-radius: 20px;
+}
+.challenge{
+    padding-bottom: 5%;
+}
+.footer{
+    height: 150px;
+    background-color: black;
+
+}
+.footer-heading{
+    font-family: 'Lobster Two', cursive;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+.footer-paragraph{
+    color: white;
+    text-align: center;
+}
+.tomato-color{
+    color: tomato;
 }
