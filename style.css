@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+}
+section{
+    height: 500px;
+    margin-bottom: 100px;
+}
+.flexible-container{
+    display: flex;
+}
+.container1{
+    width: 40%;
+    margin-top: 100px;
+    padding-left: 10%;
+}
+.container2{
+    width: 30%;
+    margin-top: 0%;
+    padding-left: 5%;
+}
+h1{
+    font-size: 60px;
+    line-height: 50%;
+    padding-left: 12px;
+    font-family: 'Lora', serif;
+}
+.orange-color{
+    color: orange;
+}
+.side-border{
+    border-left: 4px solid tomato;
+    border-image: linear-gradient(tomato,salmon);
+    border-image-slice: 1;
+    height: 120px;
+}
+p{  
+font-family: 'Poppins', sans-serif;
+    color: #2c2b2b;
+}
+.explore-link{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-image: linear-gradient(salmon,tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+}
+.person-img{
+    width: 100%;
+}
+.my-vision{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(29, 13, 59);
+    text-align: center;
+}
+span{
+    color: orange;
+}
+.slide-container{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.illustrator-img{
+    height: 120px;
+    width: 120px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+.illustrator-1{
+    width: 22%;
+    height: 350px;
+    background-color: rgb(177, 225, 253);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+
+}
+.illustrator-2{
+    width: 22%;
+    height: 350px;
+    background-color: rgb(253, 177, 240);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+
+}
+.illustrator-3{
+    width: 22%;
+    height: 350px;
+    background-color: burlywood;  
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+
+}
